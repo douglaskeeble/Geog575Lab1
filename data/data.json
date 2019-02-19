@@ -1,0 +1,38 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "field_1": "Name", "field_2": "Lat", "field_3": "Lon", "field_4": "2006", "field_5": "2007", "field_6": "2008", "field_7": "2009", "field_8": "2010", "field_9": "2011", "field_10": "2012", "field_11": "2013", "field_12": "2014", "field_13": "2015" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Butte", "field_2": "-112.6570522", "field_3": "45.90182271", "field_4": "508", "field_5": "455", "field_6": "466", "field_7": "438", "field_8": "417", "field_9": "427", "field_10": "328", "field_11": "419", "field_12": "483", "field_13": "507" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Belgrade", "field_2": "-111.1751467", "field_3": "45.77959688", "field_4": "105", "field_5": "119", "field_6": "133", "field_7": "120", "field_8": "150", "field_9": "124", "field_10": "117", "field_11": "135", "field_12": "205", "field_13": "159" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Billings", "field_2": "-108.552522", "field_3": "45.78924639", "field_4": "2922", "field_5": "2781", "field_6": "2724", "field_7": "2747", "field_8": "2710", "field_9": "2661", "field_10": "2739", "field_11": "2697", "field_12": "2706", "field_13": "2699" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Bozeman", "field_2": "-111.0550796", "field_3": "45.68310314", "field_4": "809", "field_5": "802", "field_6": "714", "field_7": "592", "field_8": "594", "field_9": "648", "field_10": "636", "field_11": "558", "field_12": "500", "field_13": "548" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Columbia Falls", "field_2": "-114.1902149", "field_3": "48.37099619", "field_4": "79", "field_5": "57", "field_6": "61", "field_7": "62", "field_8": "44", "field_9": "50", "field_10": "1", "field_11": "7", "field_12": "61", "field_13": "49" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Dillon", "field_2": "-112.6353197", "field_3": "45.21720901", "field_4": "43", "field_5": "33", "field_6": "43", "field_7": "51", "field_8": "42", "field_9": "40", "field_10": "53", "field_11": "40", "field_12": "39", "field_13": "55" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "East Helena", "field_2": "-111.915872", "field_3": "46.58500293", "field_4": "13", "field_5": "11", "field_6": "13", "field_7": "4", "field_8": "10", "field_9": "9", "field_10": "8", "field_11": "11", "field_12": "17", "field_13": "14" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Glendive", "field_2": "-104.7069664", "field_3": "47.11012387", "field_4": "84", "field_5": "79", "field_6": "128", "field_7": "120", "field_8": "92", "field_9": "146", "field_10": "140", "field_11": "126", "field_12": "127", "field_13": "127" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Great Falls", "field_2": "-111.2995572", "field_3": "47.50218861", "field_4": "1647", "field_5": "1694", "field_6": "1728", "field_7": "1792", "field_8": "1872", "field_9": "1704", "field_10": "1538", "field_11": "1563", "field_12": "1627", "field_13": "1648" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Hamilton", "field_2": "-114.1597573", "field_3": "46.25274802", "field_4": "102", "field_5": "120", "field_6": "124", "field_7": "91", "field_8": "119", "field_9": "101", "field_10": "106", "field_11": "120", "field_12": "149", "field_13": "147" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Helena", "field_2": "-112.0201883", "field_3": "46.59655488", "field_4": "1157", "field_5": "1156", "field_6": "1156", "field_7": "1145", "field_8": "1082", "field_9": "1034", "field_10": "982", "field_11": "990", "field_12": "1131", "field_13": "1078" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Kalispell", "field_2": "-114.3272823", "field_3": "48.21537343", "field_4": "629", "field_5": "541", "field_6": "597", "field_7": "643", "field_8": "474", "field_9": "513", "field_10": "553", "field_11": "519", "field_12": "648", "field_13": "592" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Livingston", "field_2": "-110.5537372", "field_3": "45.66657062", "field_4": "150", "field_5": "204", "field_6": "173", "field_7": "140", "field_8": "128", "field_9": "138", "field_10": "134", "field_11": "99", "field_12": "21", "field_13": "27" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Missoula", "field_2": "-114.0213653", "field_3": "46.87497003", "field_4": "1486", "field_5": "1720", "field_6": "1772", "field_7": "1677", "field_8": "1568", "field_9": "1539", "field_10": "1368", "field_11": "1465", "field_12": "1786", "field_13": "1852" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "field_1": "Polson", "field_2": "-114.1412521", "field_3": "47.68865406", "field_4": "39", "field_5": "52", "field_6": "67", "field_7": "69", "field_8": "62", "field_9": "57", "field_10": "39", "field_11": "43", "field_12": "48", "field_13": "35" }, "geometry": null }
+
+]
+}

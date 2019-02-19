@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"2005":85,"2006":36,"id":1,"name":"Atlanta"},"geometry":{"type":"Point","coordinates":[-84.3881,33.7489]}},{"type":"Feature","properties":{"2005":28,"2006":29,"id":2,"name":"Chicago"},"geometry":{"type":"Point","coordinates":[-87.65,41.85]}}]}

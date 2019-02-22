@@ -7,12 +7,13 @@
 			minZoom: 4
 		});
 
-		L.tileLayer(
-    	'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				attribution: 'OSM'
+		L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 19
 			}).addTo(map);
 
-      	$.getJSON('data/dataMT.geojson')
+      	$.getJSON('data/popData.geojson')
       		.done(function(data) {
       			var info = processData(data);
             createPropSymbols(info.timestamps, data);
@@ -32,7 +33,7 @@
         			for (var attribute in properties) {
 
         				if ( attribute != 'id' &&
-        				  attribute != 'Name' &&
+        				  attribute != 'name' &&
         				  attribute != 'lat' &&
         				  attribute != 'lon' ) {
 
@@ -65,19 +66,19 @@
           			pointToLayer: function(feature, latlng) {
 
           			return L.circleMarker(latlng, {
-          				 fillColor: '#708598',
-          				 color: '#537898',
+          				 fillColor: '#B84E14',
+          				 color: '#341809',
           				 weight: 1,
           				 fillOpacity: 0.6
           				}).on({
 
           					mouseover: function(e) {
           						this.openPopup();
-          						this.setStyle({color: 'yellow'});
+          						this.setStyle({color: '#FC600A'});
           					},
           					mouseout: function(e) {
           						this.closePopup();
-          						this.setStyle({color: '#537898'});
+          						this.setStyle({color: '#341809'});
 
           					}
           				});
@@ -94,9 +95,10 @@
 
 			             var props = layer.feature.properties;
 			             var radius = calcPropRadius(props[timestamp]);
-			             var popupContent = '<b>' + String(props[timestamp]) +
-				                              ' units</b><br>' +
-				                              '<i>' + props.Name +
+									 var percent = props[timestamp]*100-100;
+			             var popupContent = '<b> Population increased by ' + String(percent.toFixed(0)) +
+				                              '%</b><br>' +
+				                              '<i>' + props.name +
 					                            '</i> in </i>' +
 					                            timestamp + '</i>';
                   layer.setRadius(radius);
@@ -105,8 +107,8 @@
 	 }
 	  function calcPropRadius(attributeValue) {
 
-		    var scaleFactor = .5;
-        var area = attributeValue * scaleFactor;
+		    var scaleFactor = 60;
+        var area = (attributeValue * 100-100) * scaleFactor;
         return Math.sqrt(area/Math.PI)*2;
 	}
 

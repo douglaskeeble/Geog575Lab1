@@ -1,5 +1,6 @@
 	body {
 	font-family: sans-serif;
+	background-color: #D4EDF7;
 	}
 
 	#wrapper {
@@ -10,4 +11,28 @@
 	#map {
 	 height: 450px;
 	 margin: 15px auto;
+	 border-radius: 15px;
 	}
+
+	#controls {
+		height: 250px;
+		background-color: #347B98;
+    border-radius: 15px;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+h1 {
+	font-family: 'Alfa Slab One';
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+  color: #341809;
+	font-weight: 100;
+}
+
+h2 {
+	font-family: 'Alfa Slab One';
+	margin-top: 5px;
+	color: #B84E14;
+	font-weight: 100;
+}

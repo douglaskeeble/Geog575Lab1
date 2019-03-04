@@ -8,14 +8,25 @@
 	 margin: 15px auto;
 	}
 
+ #bar {
+	 width: 200px;
+	 float: left;
+	 background-color: #347B98;
+		border-radius: 15px;
+	 text-align: center;
+	 padding-top: 15px;
+	 margin-right: 15px;
+	 height: 585px;
+ }
+
 	#map {
-	 height: 450px;
+	 height: 600px;
 	 margin: 15px auto;
 	 border-radius: 15px;
 	}
 
 	#controls {
-		height: 250px;
+		height: 90px;
 		background-color: #347B98;
     border-radius: 15px;
 		text-align: center;
@@ -28,6 +39,7 @@ h1 {
 	margin-bottom: 5px;
   color: #341809;
 	font-weight: 100;
+	margin-top: 0;
 }
 
 h2 {
@@ -35,4 +47,71 @@ h2 {
 	margin-top: 5px;
 	color: #B84E14;
 	font-weight: 100;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	line-height: 25px;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+.zoomButtons {
+	list-style-type: none;
+	background-color: white;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.buttons {
+	margin: 0;
+	line-height: normal;
+}
+
+.buttons > li {
+	border: 1px solid gray;
+	padding: 4px;
+}
+
+.buttons > li:hover {
+	background-color: grey;
+}
+
+.buttons > .home {
+	border-top: 0px;
+	border-bottom: 0;
+}
+
+.featureList > li:hover {
+	background-color: #cceeff;
+}
+
+.year {
+	margin-bottom: 0;
+}
+
+.slider {
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;
+}
+
+.baseButton{
+	background-color: #cceeff;
+	border-radius: 10px;
+	padding: 4px;
+	font-size: 19px;
+	vertical-align: top;
+}
+.baseButton:hover {
+	background-color: white;
+}
+
+.leaflet-right .leaflet-control {
+	float: none;
+	display: inline-block;
 }
